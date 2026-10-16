@@ -1,6 +1,6 @@
 # Arc growth tools
 
-Small TypeScript tools for builders connecting Arc commerce to measured growth and controlled spending. This package is independently buildable and licensed under [Apache-2.0](LICENSE). It has no runtime dependencies; import a focused subpath such as `@growtendril/arc-growth-tools/commerce`. The root entry also exports Node.js receipt signing helpers and is intended for server runtimes. The package is prepared for a separate public repository; it has **not** been published to npm.
+Small TypeScript tools for builders connecting Arc commerce to measured growth and controlled spending. The [standalone source repository](https://github.com/drained69/arc-growth-tools) is public, independently buildable and licensed under [Apache-2.0](LICENSE). It has no runtime dependencies; import a focused subpath such as `@growtendril/arc-growth-tools/commerce`. The root entry also exports Node.js receipt signing helpers and is intended for server runtimes. The package has **not** been published to npm; clone the repository or install it from a reviewed Git commit.
 
 In the standalone toolkit repository, build, test, and run the independent example:
 
