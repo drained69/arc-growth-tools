@@ -5,3 +5,7 @@ Licensed under the Apache License, Version 2.0. See LICENSE.
 
 This package includes selected event ABI definitions from Circle Internet Group, Inc.'s
 AuthCaptureEscrow reference. See THIRD_PARTY_NOTICES.md for provenance and license.
+
+The exact deployed Solidity source retains a historical UNLICENSED SPDX line.
+The copyright holder grants the standalone repository copies under Apache-2.0;
+see CONTRACT_LICENSE.md for the scope and reason the source bytes were preserved.
