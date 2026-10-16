@@ -5,7 +5,7 @@ Small TypeScript tools for builders connecting Arc commerce to measured growth a
 In the standalone toolkit repository, build, test, and run the independent example:
 
 ```sh
-npm install
+npm ci
 npm test
 npm --prefix examples/independent-builder install
 npm --prefix examples/independent-builder run demo
