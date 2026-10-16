@@ -1,0 +1,14 @@
+{
+  "name": "arc-builder-starter",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "demo": "node index.mjs",
+    "verify-transfer": "node verify-transfer.mjs",
+    "test": "node --test verify-transfer.test.mjs"
+  },
+  "dependencies": {
+    "@growtendril/arc-growth-tools": "file:../.."
+  }
+}

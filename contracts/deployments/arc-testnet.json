@@ -1,0 +1,16 @@
+{
+  "network": "Arc testnet",
+  "chainId": 5042002,
+  "contract": "OutcomeRewardsEscrow",
+  "address": "0x2371d0f4a064d1eb5f154dd99d355a7f4fa71aa3",
+  "transactionHash": "0xc309e7da13e9b76153ddf51fb9b1684e7f179dc23296ca72fba585e8a72338fb",
+  "deployer": "0xdDE7B987A01717EEfCcA1Dc5280c164E2cCD133e",
+  "usdc": "0x3600000000000000000000000000000000000000",
+  "refundHoldSeconds": 259200,
+  "sourceSha256": "2ea7f52c7b2cf22ae226927a9eeb997804c1dbd10bdcc8552e4bace986c9e24f",
+  "compiler": "v0.8.30+commit.73712a01",
+  "optimizerRuns": 200,
+  "evmVersion": "cancun",
+  "sourceVerified": true,
+  "explorer": "https://explorer.testnet.arc.io/address/0x2371d0f4a064d1eb5f154dd99d355a7f4fa71aa3"
+}

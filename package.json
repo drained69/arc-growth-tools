@@ -1,0 +1,61 @@
+{
+  "name": "@growtendril/arc-growth-tools",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Composable outcome rewards, spending controls and Arc payment evidence",
+  "license": "Apache-2.0",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE",
+    "NOTICE",
+    "THIRD_PARTY_NOTICES.md",
+    "LICENSES"
+  ],
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    },
+    "./outcomes": {
+      "types": "./dist/outcomes.d.ts",
+      "import": "./dist/outcomes.js"
+    },
+    "./commerce": {
+      "types": "./dist/commerce.d.ts",
+      "import": "./dist/commerce.js"
+    },
+    "./policy": {
+      "types": "./dist/policy.d.ts",
+      "import": "./dist/policy.js"
+    },
+    "./evidence": {
+      "types": "./dist/evidence.d.ts",
+      "import": "./dist/evidence.js"
+    },
+    "./recipient": {
+      "types": "./dist/recipient.d.ts",
+      "import": "./dist/recipient.js"
+    },
+    "./escrow": {
+      "types": "./dist/escrow.d.ts",
+      "import": "./dist/escrow.js"
+    },
+    "./commerce-abi": {
+      "types": "./dist/commerce-abi.d.ts",
+      "import": "./dist/commerce-abi.js"
+    }
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "npm run build && node --test tests/*.test.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "private": false,
+  "devDependencies": {
+    "@types/node": "^26.6.4",
+    "typescript": "^5.9.3"
+  }
+}
